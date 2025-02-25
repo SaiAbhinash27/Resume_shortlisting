@@ -36,7 +36,12 @@ class resume_shoertlist(Resource):
         r_s.mail_sender() # sending mail by using mail_sender method
         return {'Candidate Info': result,
                 'File_name': file_name}
-            
+
+
+
+
+
+
 def accepted_file(name):
     n = os.path.splitext(name)
     return n
